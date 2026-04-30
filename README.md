@@ -1,74 +1,134 @@
-# RS WiFi Cracker PRO v4.0 - Ultimate Edition
+<div align="center">
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════╗
-║     ██████╗ ██████╗ ███████╗    █████╗ ██╗     ██╗   ██╗ █████╗ ███████╗     ║
-║     ██╔══██╗██╔══██╗██╔════╝   ██╔══██╗██║     ██║   ██║██╔══██╗██╔════╝     ║
-║     ██████╔╝██████╔╝█████╗     ███████║██║     ██║   ██║███████║███████╗     ║
-║     ██╔══██╗██╔══██╗██╔══╝     ██╔══██║██║     ╚██╗ ██╔╝██╔══██║╚════██║     ║
-║     ██║  ██║██████╔╝███████╗   ██║  ██║███████╗ ╚████╔╝ ██║  ██║███████║     ║
-║     ╚═╝  ╚═╝╚═════╝ ╚══════╝   ╚═╝  ╚═╝╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝     ║
-║                                                                               ║
-║                        PRO v4.0 - ULTIMATE EDITION                            ║
-║                      T3rmuxk1ng Private Release                               ║
-║                    Production Ready - 1M+ Lines                               ║
-╚═══════════════════════════════════════════════════════════════════════════════╝
-```
+# 📡 RS WiFi Cracker PRO v4
 
-## ⚡ Overview
+**The ultimate WiFi security testing toolkit — 50+ attack modules, GPU acceleration, AI-powered features, and enterprise-grade reliability**
 
-RS WiFi Cracker PRO v4.0 is the ultimate WiFi security testing toolkit designed for professional penetration testers and security researchers. This private release includes 50+ attack modules, GPU acceleration, AI-powered features, and enterprise-grade reliability.
+[![Language](https://img.shields.io/badge/Language-Python-yellow?logo=python)](https://python.org)
+[![Version](https://img.shields.io/badge/Version-4.0%20Ultimate-red)](https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO-v4/releases)
+[![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue?logo=linux)](https://www.kali.org)
+[![YouTube](https://img.shields.io/badge/YouTube-T3rmuxk1ng-red?logo=youtube)](https://youtube.com/@T3rmuxk1ng)
+[![License](https://img.shields.io/badge/License-Educational-yellow)](./LICENSE)
 
-## 🔥 Features
+*Built with 💚 by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)*
 
-### Core Capabilities
-- **Advanced Network Scanner** - Multi-backend scanning (airodump-ng, scapy, nmcli)
-- **WPA/WPA2 Handshake Capture** - Multiple capture modes with auto-deauth
-- **GPU-Accelerated Cracking** - Hashcat integration for fast cracking
-- **AI-Powered Password Generation** - Smart wordlist creation
-- **Real-time Monitoring** - Live scan updates and statistics
+</div>
 
-### Attack Modules
-- **WPS Attack Suite** - Pixie Dust, PIN Brute Force, Null PIN
-- **PMKID Attack** - Offline attack without clients
-- **Evil Twin** - Rogue AP with captive portal
-- **Deauth Attack** - Multiple modes (broadcast, targeted, persistent)
-- **Karma Attack** - Auto-connect exploitation
-- **MITM Suite** - ARP spoof, DNS spoof, SSL strip
+---
 
-### Enterprise Features
-- **Web Dashboard** - Browser-based control panel
-- **API Server** - RESTful API for automation
-- **Plugin Architecture** - Extensible module system
-- **Comprehensive Logging** - Detailed audit trails
-- **Database Storage** - SQLite for results
+## 🎬 Demo & Tutorials
 
-## 📦 Installation
+📺 **Watch on YouTube**: [https://youtube.com/@T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
 
+Subscribe for WiFi hacking tutorials, advanced pentesting demos, and exclusive tool releases!
+
+---
+
+## ✨ Features
+
+### 🎯 Core Attack Modules
+
+| Module | Description |
+|--------|-------------|
+| **Advanced Network Scanner** | Multi-backend scanning (airodump-ng, scapy, nmcli) |
+| **WPA/WPA2 Handshake Capture** | Multiple capture modes with auto-deauth |
+| **GPU-Accelerated Cracking** | Hashcat integration for fast cracking |
+| **AI-Powered Password Generation** | Smart wordlist creation |
+| **Real-Time Monitoring** | Live scan updates and statistics |
+| **WPS Attack Suite** | Pixie Dust, PIN Brute Force, Null PIN |
+| **PMKID Attack** | Offline attack without connected clients |
+| **Evil Twin** | Rogue AP with captive portal |
+| **Deauth Attack** | Multiple modes (broadcast, targeted, persistent) |
+| **Karma Attack** | Auto-connect exploitation |
+| **MITM Suite** | ARP spoof, DNS spoof, SSL strip |
+
+### 🚀 Enterprise Features
+
+- **Web Dashboard** — Browser-based control panel
+- **RESTful API** — Automation-ready API server
+- **Plugin Architecture** — Extensible module system
+- **Comprehensive Logging** — Detailed audit trails
+- **Database Storage** — SQLite for results and statistics
+- **Configuration System** — JSON-based config management
+
+---
+
+## 🛠️ Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| OS | Kali Linux 2024.x (recommended) |
+| Python | 3.11+ |
+| WiFi Adapter | Must support monitor mode & packet injection |
+| Privileges | Root (sudo) required |
+
+### System Dependencies
 ```bash
-# Clone repository
-git clone https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO.git
-cd RS-WiFi-Cracker-PRO
+# Aircrack-ng suite, reaver, bully, hashcat, john, hydra
+# hcxdumptool, hcxtools
+```
 
-# Install
+### Python Packages
+```bash
+pip3 install scapy requests colorama rich psutil
+```
+
+---
+
+## 🚀 Installation
+
+### Quick Install
+```bash
+git clone https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO-v4.git
+cd RS-WiFi-Cracker-PRO-v4
 chmod +x install.sh
 sudo ./install.sh
-
-# Run
-rs-wifi-pro
 ```
 
-## 🚀 Quick Start
-
+### Run
 ```bash
 # Interactive mode
-rs-wifi-pro
+sudo python3 rs_wifi_pro.py
 
 # CLI mode
-rs-wifi-pro -i wlan0 --scan
-rs-wifi-pro -i wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
-rs-wifi-pro --crack capture.cap -w wordlist.txt
+sudo python3 rs_wifi_pro.py -i wlan0 --scan
+sudo python3 rs_wifi_pro.py -i wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
+sudo python3 rs_wifi_pro.py --crack capture.cap -w wordlist.txt
 ```
+
+---
+
+## 📖 Usage
+
+### Attack Methods
+
+| Attack | Speed | Requirements |
+|--------|-------|-------------|
+| **WPS Pixie Dust** | 1-60 seconds | Vulnerable router |
+| **PMKID Attack** | Minutes | hcxdumptool, no client needed |
+| **Handshake Capture** | Variable | Active client on network |
+| **Evil Twin** | Variable | Social engineering setup |
+
+### Configuration
+
+Edit `config/config.json`:
+```json
+{
+  "general": {
+    "interface": "wlan0",
+    "log_level": "INFO"
+  },
+  "scanning": {
+    "default_duration": 30
+  },
+  "cracking": {
+    "default_wordlist": "/usr/share/wordlists/rockyou.txt",
+    "use_gpu": true
+  }
+}
+```
+
+---
 
 ## 📁 Project Structure
 
@@ -94,89 +154,57 @@ RS-WiFi-Cracker-PRO-v4/
 │   ├── config.py           # Configuration
 │   ├── interface.py        # Interface manager
 │   └── wordlist.py         # Wordlist generator
+├── plugins/                # Plugin system
+├── api/                    # REST API
+├── web/                    # Web dashboard
 ├── config/                 # Configuration files
 ├── data/                   # Database storage
-├── logs/                   # Log files
 ├── captures/               # Captured handshakes
 ├── reports/                # Generated reports
 └── wordlists/              # Password wordlists
 ```
 
-## 🛡️ Requirements
+---
 
-- Kali Linux 2024.x (recommended)
-- Python 3.11+
-- WiFi adapter with monitor mode support
-- Root privileges
+## 🤝 Contributing
 
-## 📋 Dependencies
+Contributions are welcome! Please read our [Contributing Guidelines](./.github/README.md) for details.
 
-### System Tools
-- aircrack-ng suite
-- reaver, bully
-- hashcat, john
-- hydra
-- hcxdumptool, hcxtools
-
-### Python Packages
-- scapy
-- requests
-- colorama
-- rich
-- psutil
-
-## ⚙️ Configuration
-
-Edit `config/config.json`:
-
-```json
-{
-  "general": {
-    "interface": "wlan0",
-    "log_level": "INFO"
-  },
-  "scanning": {
-    "default_duration": 30
-  },
-  "cracking": {
-    "default_wordlist": "/usr/share/wordlists/rockyou.txt",
-    "use_gpu": true
-  }
-}
-```
-
-## 🎯 Attack Methods
-
-### 1. WPS Pixie Dust
-Fastest attack for vulnerable routers (1-60 seconds)
-
-### 2. PMKID Attack
-Offline attack without connected clients
-
-### 3. Handshake Capture
-Traditional WPA/WPA2 attack
-
-### 4. Evil Twin
-Social engineering attack with captive portal
-
-## 📊 Statistics
-
-The toolkit tracks comprehensive statistics:
-- Networks scanned
-- Handshakes captured
-- Passwords cracked
-- Attack success rates
-- Time metrics
-
-## ⚠️ Disclaimer
-
-This tool is for **authorized security testing only**. Use only on networks you own or have explicit written permission to test. The author is not responsible for any misuse or damage.
-
-## 📜 License
-
-Private Release - All Rights Reserved  
-Copyright (c) 2024-2026 T3rmuxk1ng (RAJSARASWATI JATAV)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ---
 
-**T3rmuxk1ng Edition** | Private Release | v4.0 Ultimate
+## ⚠️ Disclaimer
+
+**This tool is for AUTHORIZED SECURITY TESTING and EDUCATIONAL purposes only.**
+
+- Only use on networks you own or have explicit written permission to test
+- Unauthorized access to computer networks is illegal in most jurisdictions
+- The developers are not liable for any misuse or damage caused
+- Always comply with local laws and regulations
+
+---
+
+## 📺 YouTube
+
+📺 **T3rmuxk1ng** — [https://youtube.com/@T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
+
+Subscribe for:
+- Advanced WiFi hacking tutorials & demos
+- Network security walkthroughs
+- Cybersecurity tips & tricks
+- Exclusive tool releases
+
+---
+
+<div align="center">
+
+**Built with 💚 by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)**
+
+⭐ If you like this project, give it a star!
+
+</div>
