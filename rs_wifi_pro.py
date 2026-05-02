@@ -303,11 +303,11 @@ class PluginError(RSWiFiError):
     """Plugin-related errors"""
     pass
 
-class NetworkError(RSWiFiError):
+class RSNetworkError(RSWiFiError):
     """Network-related errors"""
     pass
 
-class PermissionError(RSWiFiError):
+class RSPermissionError(RSWiFiError):
     """Permission-related errors"""
     pass
 
@@ -419,7 +419,7 @@ def require_root(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         if os.geteuid() != 0:
-            raise PermissionError(
+            raise RSPermissionError(
                 "This operation requires root privileges. "
                 "Run with sudo."
             )
