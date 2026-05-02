@@ -118,6 +118,7 @@ class CrackResult:
     target: str
     password: str = ""
     method: str = ""
+    wordlist: str = ""
     time_taken: float = 0.0
     attempts: int = 0
     speed: float = 0.0

@@ -190,7 +190,7 @@ class NetworkScanner:
             return "2.4GHz"
         elif 36 <= channel <= 177:
             return "5GHz"
-        elif 1 <= channel <= 233:  # 6GHz channels
+        elif channel > 177:
             return "6GHz"
         return "Unknown"
     
@@ -453,8 +453,7 @@ class NetworkScanner:
                         power=-100 + signal,
                         encryption=encryption,
                         wps=wps,
-                        vendor=self.get_vendor(bssid),
-                        band=self.get_band(channel)
+                        vendor=self.get_vendor(bssid)
                     )
                     networks.append(network)
                     self.networks[bssid] = network
@@ -568,8 +567,7 @@ class NetworkScanner:
                     frequency=self.get_frequency(channel),
                     power=-50,
                     encryption=encryption,
-                    vendor=self.get_vendor(bssid),
-                    band=self.get_band(channel)
+                    vendor=self.get_vendor(bssid)
                 )
                 self.networks[bssid] = network
         

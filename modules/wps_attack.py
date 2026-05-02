@@ -9,7 +9,7 @@ import time
 import subprocess
 import threading
 from typing import Dict, List, Optional
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -27,6 +27,7 @@ class WPSResult:
     method: str = ""
     time_taken: float = 0.0
     error: str = ""
+    details: Dict = field(default_factory=dict)
 
 
 class WPSAttacker:

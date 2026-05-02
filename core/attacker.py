@@ -4,6 +4,7 @@
 
 import os
 import sys
+import re
 import time
 import threading
 import subprocess
@@ -116,7 +117,7 @@ class AttackEngine:
             output, _ = process.communicate(timeout=300)
             
             if 'WPA PSK' in output:
-                match = __import__('re').search(r'WPA PSK:\s*[\'"]?([^\s\'"]+)', output)
+                match = re.search(r'WPA PSK:\s*[\'"]?([^\s\'"]+)', output)
                 if match:
                     return AttackResult(success=True, attack_type='wps_pixie',
                                        target=target.bssid, password=match.group(1))
