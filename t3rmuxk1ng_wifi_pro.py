@@ -16,7 +16,7 @@
 ║                                                                               ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
-RS WiFi Cracker PRO v4.0 - Ultimate WiFi Security Testing Toolkit
+T3RMUXK1NG WiFi Cracker PRO v4.0 - Ultimate WiFi Security Testing Toolkit
 Copyright (c) 2024-2026 T3rmuxk1ng. All rights reserved.
 Private Release - Not for Public Distribution
 
@@ -268,7 +268,7 @@ BANNER = f"""
 # =============================================================================
 
 class RSWiFiError(Exception):
-    """Base exception for RS WiFi Cracker"""
+    """Base exception for T3RMUXK1NG WiFi Cracker"""
     pass
 
 class InterfaceError(RSWiFiError):
@@ -1843,7 +1843,7 @@ class RSWiFiCrackerPRO:
         self.session_id = self.db.start_session(self.selected_interface)
         
         self.running = True
-        logger.success("RS WiFi Cracker PRO initialized!")
+        logger.success("T3RMUXK1NG WiFi Cracker PRO initialized!")
     
     def run_interactive(self):
         """Run interactive mode"""
@@ -2261,7 +2261,7 @@ class RSWiFiCrackerPRO:
     def _show_help(self):
         """Show help"""
         print(f"""
-{Colors.C}RS WiFi Cracker PRO - Help{Colors.RESET}
+{Colors.C}T3RMUXK1NG WiFi Cracker PRO - Help{Colors.RESET}
 
 {Colors.G}Quick Start:{Colors.RESET}
   1. Select interface (auto-detected)
@@ -2338,7 +2338,7 @@ Press Enter to continue...""")
 def main():
     """Main entry point"""
     parser = argparse.ArgumentParser(
-        description='RS WiFi Cracker PRO - Ultimate WiFi Security Testing Toolkit',
+        description='T3RMUXK1NG WiFi Cracker PRO - Ultimate WiFi Security Testing Toolkit',
         formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
@@ -2354,7 +2354,7 @@ def main():
     parser.add_argument('--dashboard', action='store_true', help='Start web dashboard')
     parser.add_argument('--api', action='store_true', help='Start API server')
     parser.add_argument('-v', '--version', action='version', 
-                        version=f'RS WiFi Cracker PRO v{__version__}')
+                        version=f'T3RMUXK1NG WiFi Cracker PRO v{__version__}')
     
     args = parser.parse_args()
     

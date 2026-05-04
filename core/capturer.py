@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO v4.0 - Handshake Capturer Module"""
+"""T3RMUXK1NG WiFi Cracker PRO v4.0 - Handshake Capturer Module"""
 
 import os
 import re

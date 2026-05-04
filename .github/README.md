@@ -1,6 +1,6 @@
-# 🤝 Contributing to RS WiFi Cracker PRO v4
+# 🤝 Contributing to T3RMUXK1NG WiFi Cracker PRO v4
 
-Thank you for your interest in contributing to **RS WiFi Cracker PRO v4** by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)!
+Thank you for your interest in contributing to **T3RMUXK1NG WiFi Cracker PRO v4** by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)!
 
 ## 📋 Code of Conduct
 
@@ -69,6 +69,6 @@ Join the [T3rmuxk1ng YouTube channel](https://youtube.com/@T3rmuxk1ng) for tutor
 
 <div align="center">
 
-**RS WiFi Cracker PRO v4** — Built with 💚 by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
+**T3RMUXK1NG WiFi Cracker PRO v4** — Built with 💚 by [T3rmuxk1ng](https://youtube.com/@T3rmuxk1ng)
 
 </div>

@@ -1,4 +1,4 @@
-# RS WiFi Cracker PRO v4.0 - Utilities
+# T3RMUXK1NG WiFi Cracker PRO v4.0 - Utilities
 from .logger import Logger
 from .config import Config, config
 from .interface import InterfaceManager

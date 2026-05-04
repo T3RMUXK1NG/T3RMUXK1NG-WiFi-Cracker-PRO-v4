@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""RS WiFi Cracker PRO v4.0 - Interface Manager Utility"""
+"""T3RMUXK1NG WiFi Cracker PRO v4.0 - Interface Manager Utility"""
 
 import os
 import re

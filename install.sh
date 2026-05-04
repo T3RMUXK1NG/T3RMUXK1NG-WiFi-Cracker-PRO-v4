@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#  RS WiFi Cracker PRO v4.0 - Installation Script
+#  T3RMUXK1NG WiFi Cracker PRO v4.0 - Installation Script
 #  T3rmuxk1ng Private Release
 #  Production Ready - Ultimate Edition
 #
@@ -16,7 +16,7 @@ RESET='\033[0m'
 
 echo -e "${C}"
 echo "╔═══════════════════════════════════════════════════════════════════╗"
-echo "║          RS WiFi Cracker PRO v4.0 - Ultimate Edition              ║"
+echo "║          T3RMUXK1NG WiFi Cracker PRO v4.0 - Ultimate Edition              ║"
 echo "║                    T3rmuxk1ng Private Release                      ║"
 echo "║                      Production Ready Build                        ║"
 echo "╚═══════════════════════════════════════════════════════════════════╝"
@@ -83,7 +83,7 @@ mkdir -p /var/log/t3rmuxk1ng-wifi-pro
 mkdir -p ~/.config/t3rmuxk1ng-wifi-pro
 
 # Copy files
-echo -e "${C}[*] Installing RS WiFi Cracker PRO...${RESET}"
+echo -e "${C}[*] Installing T3RMUXK1NG WiFi Cracker PRO...${RESET}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cp -r "$SCRIPT_DIR"/* /opt/t3rmuxk1ng-wifi-pro-v4/
 chmod +x /opt/t3rmuxk1ng-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py
@@ -106,8 +106,8 @@ echo "alias rs-wifi='sudo python3 /opt/t3rmuxk1ng-wifi-pro-v4/t3rmuxk1ng_wifi_pr
 # Create desktop entry
 cat > /usr/share/applications/t3rmuxk1ng-wifi-pro.desktop << EOF
 [Desktop Entry]
-Name=RS WiFi Cracker PRO
-Comment=RS WiFi Cracker PRO v4.0 - Ultimate Edition
+Name=T3RMUXK1NG WiFi Cracker PRO
+Comment=T3RMUXK1NG WiFi Cracker PRO v4.0 - Ultimate Edition
 Exec=sudo python3 /opt/t3rmuxk1ng-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py
 Icon=network-wireless
 Terminal=true
@@ -119,7 +119,7 @@ echo -e "${G}"
 echo "╔═══════════════════════════════════════════════════════════════════╗"
 echo "║              INSTALLATION COMPLETE!                               ║"
 echo "║                                                                   ║"
-echo "║  RS WiFi Cracker PRO v4.0 - Ultimate Edition                     ║"
+echo "║  T3RMUXK1NG WiFi Cracker PRO v4.0 - Ultimate Edition                     ║"
 echo "║  T3rmuxk1ng Private Release                                       ║"
 echo "╚═══════════════════════════════════════════════════════════════════╝"
 echo -e "${RESET}"

@@ -1,1 +1,1 @@
-# RS WiFi Cracker PRO - Plugins Directory
+# T3RMUXK1NG WiFi Cracker PRO - Plugins Directory

@@ -1,4 +1,4 @@
-# RS WiFi Cracker PRO v4.0 - Modules
+# T3RMUXK1NG WiFi Cracker PRO v4.0 - Modules
 from .wps_attack import WPSAttacker, WPSResult
 from .evil_twin import EvilTwin, CaptiveCredential
 from .pmkid import PMKIDAttacker, PMKIDResult
