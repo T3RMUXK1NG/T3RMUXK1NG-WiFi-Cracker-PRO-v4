@@ -86,10 +86,10 @@ mkdir -p ~/.config/rs-wifi-pro
 echo -e "${C}[*] Installing RS WiFi Cracker PRO...${RESET}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cp -r "$SCRIPT_DIR"/* /opt/rs-wifi-pro-v4/
-chmod +x /opt/rs-wifi-pro-v4/rs_wifi_pro.py
+chmod +x /opt/rs-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py
 
 # Create symlink
-ln -sf /opt/rs-wifi-pro-v4/rs_wifi_pro.py /usr/local/bin/rs-wifi-pro 2>/dev/null || true
+ln -sf /opt/rs-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py /usr/local/bin/rs-wifi-pro 2>/dev/null || true
 
 # Generate wordlists
 echo -e "${C}[*] Generating wordlists...${RESET}"
@@ -101,14 +101,14 @@ print('Wordlist generated')
 " 2>/dev/null || echo -e "${Y}[!] Wordlist generation skipped${RESET}"
 
 # Create bash alias
-echo "alias rs-wifi='sudo python3 /opt/rs-wifi-pro-v4/rs_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
+echo "alias rs-wifi='sudo python3 /opt/rs-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py'" >> /etc/bash.bashrc 2>/dev/null || true
 
 # Create desktop entry
 cat > /usr/share/applications/rs-wifi-pro.desktop << EOF
 [Desktop Entry]
 Name=RS WiFi Cracker PRO
 Comment=RS WiFi Cracker PRO v4.0 - Ultimate Edition
-Exec=sudo python3 /opt/rs-wifi-pro-v4/rs_wifi_pro.py
+Exec=sudo python3 /opt/rs-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py
 Icon=network-wireless
 Terminal=true
 Type=Application
@@ -127,7 +127,7 @@ echo -e "${RESET}"
 echo ""
 echo -e "${G}Usage:${RESET}"
 echo -e "  ${W}rs-wifi-pro${RESET}              # Interactive mode"
-echo -e "  ${W}sudo python3 /opt/rs-wifi-pro-v4/rs_wifi_pro.py${RESET}"
+echo -e "  ${W}sudo python3 /opt/rs-wifi-pro-v4/t3rmuxk1ng_wifi_pro.py${RESET}"
 echo ""
 echo -e "${G}Features:${RESET}"
 echo -e "  ${W}• Network Scanner (airodump, scapy, nmcli)${RESET}"

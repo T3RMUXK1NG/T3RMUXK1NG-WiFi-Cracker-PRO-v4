@@ -134,7 +134,7 @@ class NetworkScanner:
         }
         
         # Output directory
-        self.output_dir = Path(config.get('general.temp_dir', '/tmp/rs_wifi'))
+        self.output_dir = Path(config.get('general.temp_dir', '/tmp/t3rmuxk1ng_wifi'))
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # Load OUI database

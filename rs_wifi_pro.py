@@ -39,7 +39,7 @@ This tool is for authorized security testing and educational purposes only.
 Use only on networks you own or have explicit written permission to test.
 The author is not responsible for any misuse or damage caused by this tool.
 
-Author: T3rmuxk1ng (RAJSARASWATI JATAV)
+Author: T3rmuxk1ng (T3RMUXK1NG)
 Version: 4.0.0 (Ultimate)
 License: Private - All Rights Reserved
 """
@@ -517,9 +517,9 @@ class ConfigManager:
             'interface': 'wlan0',
             'auto_detect_interface': True,
             'log_level': 'INFO',
-            'log_file': 'logs/rs_wifi.log',
+            'log_file': 'logs/t3rmuxk1ng_wifi.log',
             'output_dir': 'output',
-            'temp_dir': '/tmp/rs_wifi',
+            'temp_dir': '/tmp/t3rmuxk1ng_wifi',
             'colors': True,
             'language': 'en',
             'auto_save': True,
@@ -613,7 +613,7 @@ class ConfigManager:
         # Database Settings
         'database': {
             'type': 'sqlite',
-            'path': 'data/rs_wifi.db',
+            'path': 'data/t3rmuxk1ng_wifi.db',
             'backup_enabled': True,
             'backup_interval': 86400,
         },
@@ -844,7 +844,7 @@ class Database:
     
     def __init__(self, db_path: str = None):
         self.db_path = db_path or str(
-            PROJECT_ROOT / 'data' / 'rs_wifi.db'
+            PROJECT_ROOT / 'data' / 't3rmuxk1ng_wifi.db'
         )
         Path(self.db_path).parent.mkdir(parents=True, exist_ok=True)
         self.conn = None

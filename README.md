@@ -5,7 +5,7 @@
 **The ultimate WiFi security testing toolkit — 50+ attack modules, GPU acceleration, AI-powered features, and enterprise-grade reliability**
 
 [![Language](https://img.shields.io/badge/Language-Python-yellow?logo=python)](https://python.org)
-[![Version](https://img.shields.io/badge/Version-4.0%20Ultimate-red)](https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO-v4/releases)
+[![Version](https://img.shields.io/badge/Version-4.0%20Ultimate-red)](https://github.com/T3RMUXK1NG/T3RMUXK1NG-WiFi-Cracker-PRO-v4/releases)
 [![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-blue?logo=linux)](https://www.kali.org)
 [![YouTube](https://img.shields.io/badge/YouTube-T3rmuxk1ng-red?logo=youtube)](https://youtube.com/@T3rmuxk1ng)
 [![License](https://img.shields.io/badge/License-Educational-yellow)](./LICENSE)
@@ -79,8 +79,8 @@ pip3 install scapy requests colorama rich psutil
 
 ### Quick Install
 ```bash
-git clone https://github.com/rajsaraswati-jatavv/RS-WiFi-Cracker-PRO-v4.git
-cd RS-WiFi-Cracker-PRO-v4
+git clone https://github.com/T3RMUXK1NG/T3RMUXK1NG-WiFi-Cracker-PRO-v4.git
+cd T3RMUXK1NG-WiFi-Cracker-PRO-v4
 chmod +x install.sh
 sudo ./install.sh
 ```
@@ -88,12 +88,12 @@ sudo ./install.sh
 ### Run
 ```bash
 # Interactive mode
-sudo python3 rs_wifi_pro.py
+sudo python3 t3rmuxk1ng_wifi_pro.py
 
 # CLI mode
-sudo python3 rs_wifi_pro.py -i wlan0 --scan
-sudo python3 rs_wifi_pro.py -i wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
-sudo python3 rs_wifi_pro.py --crack capture.cap -w wordlist.txt
+sudo python3 t3rmuxk1ng_wifi_pro.py -i wlan0 --scan
+sudo python3 t3rmuxk1ng_wifi_pro.py -i wlan0 --attack wps --target AA:BB:CC:DD:EE:FF
+sudo python3 t3rmuxk1ng_wifi_pro.py --crack capture.cap -w wordlist.txt
 ```
 
 ---
@@ -133,8 +133,8 @@ Edit `config/config.json`:
 ## 📁 Project Structure
 
 ```
-RS-WiFi-Cracker-PRO-v4/
-├── rs_wifi_pro.py          # Main entry point
+T3RMUXK1NG-WiFi-Cracker-PRO-v4/
+├── t3rmuxk1ng_wifi_pro.py          # Main entry point
 ├── install.sh              # Installation script
 ├── core/                   # Core modules
 │   ├── scanner.py          # Network scanner

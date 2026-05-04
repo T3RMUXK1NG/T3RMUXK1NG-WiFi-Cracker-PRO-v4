@@ -48,7 +48,7 @@ class PasswordCracker:
             'total_time': 0.0,
             'total_attempts': 0
         }
-        self.output_dir = Path(config.get('general.output_dir', '/tmp/rs_wifi/output'))
+        self.output_dir = Path(config.get('general.output_dir', '/tmp/t3rmuxk1ng_wifi/output'))
         self.output_dir.mkdir(parents=True, exist_ok=True)
     
     def crack(self, cap_file: str, wordlist: str, method: str = "dictionary",

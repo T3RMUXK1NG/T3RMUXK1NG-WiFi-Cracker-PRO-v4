@@ -31,7 +31,7 @@ class HandshakeCapturer:
         self.capture_process = None
         self.deauth_process = None
         self.capturing = False
-        self.output_dir = Path(config.get('general.temp_dir', '/tmp/rs_wifi')) / 'captures'
+        self.output_dir = Path(config.get('general.temp_dir', '/tmp/t3rmuxk1ng_wifi')) / 'captures'
         self.output_dir.mkdir(parents=True, exist_ok=True)
         self.callbacks: List[Callable] = []
         self.results: List[CaptureResult] = []
