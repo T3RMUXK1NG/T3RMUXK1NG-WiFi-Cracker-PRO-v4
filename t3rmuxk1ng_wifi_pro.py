@@ -1851,7 +1851,7 @@ class RSWiFiCrackerPRO:
             self._show_main_menu()
             
             try:
-                choice = input(f"\n{Colors.Y}RS-PRO> {Colors.RESET}").strip()
+                choice = input(f"\n{Colors.Y}T3RMUXK1NG-PRO> {Colors.RESET}").strip()
                 self._handle_choice(choice)
             except KeyboardInterrupt:
                 print(f"\n{Colors.Y}Press 0 to exit{Colors.RESET}")
